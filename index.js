@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
 })
 
 app.use("/user",userRouter)
-app.use(auth)
+// app.use(auth)
 app.use("/notes",noteRouter)
 
 
